@@ -14,7 +14,7 @@ body {
 
 /*----- style header part----- */
 .top-section {
-    background-color: rgb(127, 56, 56);
+    background-color: rgb(250, 241, 241);
 
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 .player-img {
-    color: rgb(235, 218, 218);
+    color: white;
     height: 100%;
     width: 50%;
     margin-top: 40px;
@@ -70,8 +70,8 @@ body {
 /* .........mider part..... */
 
 .mid-section {
-    background-color: darkgray;
-    height: 900px;
+    background-color: white;
+    height: 1250px;
 }
 
 .container {
@@ -107,7 +107,7 @@ body {
 }
 
 .small-card {
-    border: 2px solid rebeccapurple;
+    border: 2px solid rgb(242, 237, 247);
     height: 360px;
     width: 315px;
     display: flex;
@@ -141,4 +141,44 @@ body {
 
 .fa-solid {
     margin-top: 60px;
+}
+
+/* -------------------
+..Footer part....
+-------------------- */
+
+
+.last-section {
+    background: #161616;
+    height: 400px;
+}
+
+.final {
+    padding: 50px;
+    margin-left: 6in;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #eee2e2;
+
+}
+
+hr {
+    color: rgb(254, 254, 254);
+
+}
+
+.final-text {
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    color: rgb(254, 254, 254);
+    /* height: 5px;
+    width: 5px; */
+
 }
