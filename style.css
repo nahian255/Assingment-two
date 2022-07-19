@@ -79,6 +79,7 @@ body {
     margin-top: 100px;
     width: 800px;
 
+
 }
 
 .part-one {
@@ -100,6 +101,9 @@ body {
 
 .part-two {
     width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 7px;
 }
 
 .small-card {
@@ -110,16 +114,31 @@ body {
     justify-content: space-evenly;
     align-items: flex-start;
     margin-left: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: #eee2e2;
 }
 
 .pic {}
 
-.text {
+.textt {
     margin-left: 20px;
     display: block;
     color: #000;
 }
 
+.button {
+    margin-top: 15px;
+}
+
 .first {
     margin-top: 10px;
+}
+
+.diff {
+    margin-top: 70px;
+}
+
+.fa-solid {
+    margin-top: 60px;
 }
