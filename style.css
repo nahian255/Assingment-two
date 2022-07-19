@@ -77,6 +77,8 @@ body {
 .container {
     display: flex;
     margin-top: 100px;
+    width: 800px;
+
 }
 
 .part-one {
@@ -84,6 +86,7 @@ body {
     background: #161616;
     height: 310px;
     width: 310px;
+    margin-left: 100px;
 }
 
 .item {
@@ -111,4 +114,12 @@ body {
 
 .pic {}
 
-.text {}
+.text {
+    margin-left: 20px;
+    display: block;
+    color: #000;
+}
+
+.first {
+    margin-top: 10px;
+}
