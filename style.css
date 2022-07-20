@@ -40,6 +40,10 @@ body {
     align-items: flex-start;
 }
 
+#button:hover {
+    background-color: rgb(208, 76, 76);
+}
+
 .title-part {
     margin-left: 60px;
 }
@@ -56,6 +60,8 @@ body {
     height: 56px;
     width: 187px;
     background: #DD0000;
+    font-size: 30px;
+    color: #eee2e2;
 }
 
 .player-img {
