@@ -104,7 +104,7 @@ body {
     width: 70vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 7px;
+    grid-gap: .5%;
 }
 
 .small-card {
@@ -151,6 +151,7 @@ body {
 
 .last-section {
     background: #161616;
+
     height: 400px;
 }
 
@@ -191,4 +192,43 @@ hr {
 tab view
  ............. */
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 868px) {
+    .container {
+        flex-direction: column;
+        height: 2800px;
+    }
+
+    .part-two {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3%;
+        margin-left: 150px;
+
+    }
+
+    .small-card {
+        width: 1%;
+    }
+
+    .last-section {
+        margin-top: 1200px;
+    }
+}
+
+/* ....mobile view ... */
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .part-two {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .last-section {
+        margin-top: 3300px;
+    }
+
+    .final {
+        margin-left: 1in;
+    }
+}
