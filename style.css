@@ -286,3 +286,25 @@ tab view
         margin-left: 1in;
     }
 }
+
+/* .....................................2nd page part................................. */
+
+.direction {
+    display: flex;
+    flex-direction: column;
+}
+
+.flag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: end;
+    margin-top: 30px;
+
+}
+
+.flag-title {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
