@@ -13,10 +13,7 @@ body {
 
 
 /*----- style header part----- */
-.top-section {
-    background-color: rgb(250, 241, 241);
-
-}
+.top-section {}
 
 .card {
     background: #161616;
@@ -44,8 +41,28 @@ body {
     background-color: rgb(208, 76, 76);
 }
 
+
 .title-part {
     margin-left: 60px;
+}
+
+/* ........animation part....... */
+@keyframes sliding {
+    from {
+        background-color: #e55959;
+    }
+
+    to {
+        background-color: #d741e5;
+    }
+}
+
+
+.title-partt {
+    margin-left: 60px;
+
+    animation: sliding 6s 0.1s 6;
+    animation-play-state: hover;
 }
 
 .big-title {
@@ -55,6 +72,7 @@ body {
 .small-title {
     font-size: small;
 }
+
 
 #button {
     height: 56px;
@@ -76,7 +94,7 @@ body {
 /* .........mider part..... */
 
 .mid-section {
-    background-color: rgb(245, 239, 239);
+    /* background-color: rgb(245, 239, 239); */
     height: 1250px;
     width: 50vw;
 }
@@ -104,6 +122,10 @@ body {
     margin-top: 30px;
     margin-left: 20px;
     font-size: larger;
+}
+
+#red {
+    background-color: #DD0000;
 }
 
 .part-two {
