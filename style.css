@@ -308,3 +308,8 @@ tab view
     flex-direction: row;
     margin-top: 80px;
 }
+
+.lastt-section {
+    margin-top: 20px;
+    background: #000;
+}
