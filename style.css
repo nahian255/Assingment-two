@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* font style */
+/* /* font style ------------------------------------------------------------ */
 body {
     font-family: 'Poppins',
         sans-serif;
@@ -12,7 +12,7 @@ body {
 }
 
 
-/*----- style header part----- */
+/*----- style header part----- -----------------------------------------------*/
 .top-section {}
 
 .card {
@@ -39,6 +39,7 @@ body {
 
 #button:hover {
     background-color: rgb(208, 76, 76);
+    transform: rotate(10deg);
 }
 
 
@@ -46,7 +47,7 @@ body {
     margin-left: 60px;
 }
 
-/* ........animation part....... */
+/* ........................animation part......................... */
 @keyframes sliding {
     from {
         background-color: #e55959;
@@ -91,7 +92,8 @@ body {
 
 }
 
-/* .........mider part..... */
+/* ..............................mider part........................ */
+
 
 .mid-section {
     /* background-color: rgb(245, 239, 239); */
@@ -173,7 +175,7 @@ body {
 }
 
 /* -------------------
-..Footer part....
+............Footer part............................
 -------------------- */
 
 
@@ -212,7 +214,7 @@ hr {
     width: 5px; */
 }
 
-/* .......................
+/* ...............................................................
 /* responsive part 
 ...................... */
 
@@ -246,7 +248,9 @@ tab view
     }
 }
 
-/* ....mobile view ... */
+/* ...............mobile view ................ */
+
+
 @media screen and (max-width: 480px) {
     .top-section {
         height: 700px;
@@ -288,6 +292,7 @@ tab view
 }
 
 /* .....................................2nd page part................................. */
+
 
 .direction {
     display: flex;
